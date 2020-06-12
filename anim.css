@@ -1,0 +1,49 @@
+﻿body{
+	text-align: center;
+	margin:  10px auto;
+	background-color: #F0F0FF;
+}
+
+h1, h4, table{
+	text-align: center;
+	width: 95%;
+	color: white;
+	background-color: #3b5998;
+	margin:  10px auto;
+	padding: 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+h4
+{
+	text-decoration:underline;
+	color: #F0F0FF;
+	font-size: 200%;
+}
+
+table{
+    background-color: #5599FF;
+	color: #F0F0FF;
+	border-collapse: collapse;
+	font-size: 120%;
+}
+
+
+input{
+	font-size: 350%;
+	width: 95%;
+	text-align: center;
+	
+}
+
+button{
+	font-size: 350%;
+}
+
+#dz_mt_t, #demo{
+	margin:  10px auto;
+	font-size: 200%;
+	width: 95%;
+	height: 100px;
+	border: solid 3px black;
+}
