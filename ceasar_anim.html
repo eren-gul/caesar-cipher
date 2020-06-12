@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="anim.js"></script>
+<link rel="stylesheet" type="text/css" href="anim.css"/>
+</head>
+<body>
+<h1 id="baslik">JAVASCRIPT SEZAR ANİMASYON</h1>
+
+<h4>DÜZ METİN</h4> <input onkeydown="this.style.textTransform='UpperCase';"
+type="text" id="dz_mt"
+placeholder="Şifrelenecek metni giriniz."/><br /><br />
+<h4>ANAHTAR</h4> <input type="text" id="ant"
+placeholder="Kaydırma miktarını sayı olarak giriniz"/><br /><br />
+<button onclick="ceasar()">Şifrele</button><br /><br />
+<div id="aclm"></div>
+<h4>DÜZ METİN</h4>
+<div id="dz_mt_t" style="font-family: monospace;"></div>
+<h4>ŞİFRELİ METİN</h4>
+<div id="demo" style="font-family: monospace;"></div>
+
+<script>
+document.getElementById("aclm").innerHTML=atbl;
+</script>
+
+</body>
+</html>
